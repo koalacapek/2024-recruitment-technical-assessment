@@ -1,0 +1,27 @@
+#sidebar.container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100vh;
+  justify-content: space-between;
+  background-color: rgb(249, 250, 251);
+}
+
+.container-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 51px;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+.n-1 {
+  margin-top: 27px;
+}
+
+.n-2 {
+  margin-bottom: 62px;
+}

@@ -1,0 +1,48 @@
+#card.container {
+  width: 400px;
+  height: 42%;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.name-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.terms {
+  margin-top: 60px;
+  margin-left: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.star-rating {
+  font-size: 2.5em;
+  color: rgb(186, 141, 229);
+}
+
+.review {
+  color: rgb(150, 150, 150);
+  font-size: 1em;
+}
+
+.desc {
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+.bubble {
+  border-radius: 50px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(204, 235, 246);
+  font-size: 0.9em;
+}
