@@ -12,19 +12,21 @@ const Sidebar = () => {
   return (
     <div className="container" id="sidebar">
       <div className="container-icon n-1">
-        <UniElectives className="logo" />
-        <BookOpenIcon height={30} width={33} />
-        <ShieldCheckIcon height={30} width={33} />
+        <div className="tes">
+          <UniElectives className="logo" />
+        </div>
+        <BookOpenIcon height={25} width={27} />
+        <ShieldCheckIcon height={25} width={27} />
       </div>
       <div className="container-icon n-2">
         <BarsArrowUpIcon
-          height={30}
-          width={33}
+          height={25}
+          width={27}
           style={{ transform: "rotate(90deg)" }}
         />
-        <UserCircleIcon height={30} width={33} />
-        <MoonIcon height={30} width={33} />
-        <ArrowRightEndOnRectangleIcon height={30} width={33} />
+        <UserCircleIcon height={25} width={27} />
+        <MoonIcon height={25} width={27} />
+        <ArrowRightEndOnRectangleIcon height={25} width={27} />
       </div>
     </div>
   );
