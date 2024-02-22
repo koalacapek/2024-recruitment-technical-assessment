@@ -12,7 +12,7 @@ const Sidebar = () => {
   return (
     <div className="container" id="sidebar">
       <div className="container-icon n-1">
-        <img src={UniElectives} className="logo" />
+        <img src={UniElectives} className="logo" alt="Unilectives" />
         <div className="grey"></div>
         <BookOpenIcon height={25} width={27} />
         <ShieldCheckIcon height={25} width={27} />

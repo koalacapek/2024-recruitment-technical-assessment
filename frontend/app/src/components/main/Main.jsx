@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Card from "../card/Card";
 import Courses from "../courses/Courses";
 import Filter from "../filter/Filter";
 import SearchBar from "../searchbar/SearchBar";
@@ -7,9 +6,14 @@ import "./main.css";
 
 const Main = () => {
   const [isClicked, setIsClicked] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
   const handleH1Click = () => {
     setIsClicked(!isClicked);
+  };
+
+  const handleSearch = () => {
+    setIsActive(!isActive);
   };
 
   return (
@@ -25,7 +29,14 @@ const Main = () => {
       <h2 className="h-2">
         Your one-stop shop for UNSW course and elective reviews.
       </h2>
-      <SearchBar />
+      <SearchBar onClick={handleSearch} />
+      {isActive && (
+        <div className="search-n-1">
+          <div className="close-button" onClick={handleSearch}>
+            Close
+          </div>
+        </div>
+      )}
       <Filter />
       <Courses />
     </div>

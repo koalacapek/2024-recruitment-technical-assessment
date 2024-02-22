@@ -10,7 +10,7 @@
   font-size: 5em;
   margin: 0;
   margin-top: 5px;
-  width: 30%;
+  display: inline-block;
 }
 
 .h-1:hover {
@@ -25,4 +25,29 @@
 
 .devsoc {
   font-size: 1.1em;
+}
+
+.search-n-1 {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  border-color: rgb(156, 172, 233);
+  color: rgb(156, 172, 233);
+  margin-top: 1%;
+  height: 5%;
+  position: relative;
+}
+
+.close-button {
+  display: inline-block;
+  color: rgb(156, 172, 233);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-color: rgb(156, 172, 233);
+  position: absolute;
+  right: 0.5%;
+  bottom: 10%;
 }
