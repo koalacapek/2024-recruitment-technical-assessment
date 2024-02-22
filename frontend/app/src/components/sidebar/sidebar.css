@@ -15,8 +15,14 @@
 }
 
 .logo {
-  /* margin-left: 15px; */
-  border: 1px solid black;
+  width: 35px;
+  height: 35px;
+}
+
+.grey {
+  width: 50px;
+  border: 2px solid rgb(228, 231, 235);
+  margin-top: -20px;
 }
 
 .n-1 {

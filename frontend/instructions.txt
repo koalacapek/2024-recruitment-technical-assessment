@@ -1,2 +1,5 @@
 Please detail the instructions to view your solution here:
 
+1. cd frontend/app 
+2. npm start
+3. set viewport to 1911 x 1099 for best result (probably)
